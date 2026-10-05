@@ -109,11 +109,11 @@ const DestinationsSceneInner: React.FC<DestinationsSceneProps> = ({
         style={{ top: 1300 }}
       />
       <DestinationCard
-        name="Japan"
+        name="Europe"
         from={60}
         premountFor={fps}
-        country="Japan"
-        code="JP"
+        country="Europe"
+        code="EU"
         accentColor="#005AAB"
         fromRight={false}
         style={{ top: 1500 }}
