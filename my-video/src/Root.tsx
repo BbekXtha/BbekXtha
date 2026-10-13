@@ -12,12 +12,21 @@ import { MotifLogo } from "./Motif/MotifLogo";
 import { OutroScene } from "./Motif/OutroScene";
 import { StudyAbroad } from "./Motif/StudyAbroad";
 import { TrustScene } from "./Motif/TrustScene";
+import { SilentBrush } from "./SilentBrush/SilentBrush";
 
 // Each <Composition> is an entry in the sidebar!
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="SilentBrush"
+        component={SilentBrush}
+        durationInFrames={1165}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
       <Composition
         id="MotifStudyAbroad"
         component={StudyAbroad}

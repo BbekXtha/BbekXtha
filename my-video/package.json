@@ -6,8 +6,10 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "@remotion/captions": "4.0.532",
     "@remotion/cli": "4.0.532",
     "@remotion/fonts": "4.0.532",
+    "@remotion/media": "4.0.532",
     "@remotion/tailwind-v4": "4.0.532",
     "@remotion/transitions": "4.0.532",
     "@remotion/zod-types": "4.0.532",
@@ -33,6 +35,7 @@
   },
   "sideEffects": [
     "*.css",
-    "./src/Motif/fonts.ts"
+    "./src/Motif/fonts.ts",
+    "./src/SilentBrush/fonts.ts"
   ]
 }
