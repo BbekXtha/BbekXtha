@@ -18,3 +18,8 @@ loadFont({
   url: staticFile("fonts/Caveat.woff2"),
   weight: "400 700",
 });
+loadFont({
+  family: "Merriweather",
+  url: staticFile("fonts/Merriweather.woff2"),
+  weight: "300 900",
+});
